@@ -1,0 +1,26 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo Contato</title>
+    <link rel="icon" href="imagens/">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criar Contato</h1>
+    <form name="newNumber" action="insert">
+        <table>
+            <tr>
+                <td><input type="text" name="nome" placeholder="Nome"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="phone" placeholder="Telefone"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="email" placeholder="E-mail"></td>
+            </tr>
+        </table>
+        <input type="button" name="email" value="Adicionar" onclick="validar()">
+    </form>
+    <script src="validador.js"></script>
+</body>
+</html>
